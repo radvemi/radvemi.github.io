@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Rami Kierämäki</title>
+        <link rel="stylesheet" href="styles/layout.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Rami Kierämäen web-portfolio">
+        <meta name="keywords" content="HTML, CSS, Programming, JAMK, IT, tietotekniikka, tieto- ja viestintätekniikka, osaaja, insinööri, engineer, information technology, portfolio, web-portfolio">
+        <meta name="author" content="Rami Kierämäki">
+    </head>
+<body> <!-- body alkaa -->
+    <table class="logo">
+        <tr>
+            <td><i class="material-symbols-outlined logo_icon">terminal</i></td>
+            <td>Rami Kierämäki</td>
+        </tr>
+    </table>
+    <article class="page"> <!-- page alkaa -->
+        <header class="taustakuva" id="start"> <!-- header alkaa -->
+            <h1><i class="material-symbols-outlined header_icon">terminal</i>Rami Kierämäki</h1>
+            <h3 class="headeri">aloittava</h3>
+            <h2 class="headeri">Tieto- ja viestintätekniikan opiskelija</h2>
+        </header> <!-- header päättyy -->
+
+        <nav> <!--navi alkaa -->
+            <ul>
+                <li><a href="#"><i class="material-symbols-outlined nav_icon" style="font-size: 1em;">house</i>Tietoja</a></li>
+                <li><a href="#portfolio"><i class="material-symbols-outlined nav_icon" style="font-size: 1em;">inventory_2</i>Portfolio</a></li>             
+                <li><a href="#historia"><i class="material-symbols-outlined nav_icon" style="font-size: 1em;">description</i>Historia</a></li>
+                <li><a href="#harrastukset"><i class="material-symbols-outlined nav_icon" style="font-size: 1em;">self_improvement</i>Harrastukset</a></li>
+            </ul>
+        </nav> <!-- navi päättyy -->
+        
+        <section> <!-- tietoja alkaa -->
+            <h2 style="display:none;">pseudo-otsikko</h2> <!-- piiloitettu otsikko validointia varten -->
+            <div class="content_left kehys">
+                <figure>
+                    <img src="images/self.jpg" alt="Rami" title="Rami" class="omakuva" style="max-width:260px;height:auto;">
+                </figure> 
+            </div>
+            <div class="content_right info">
+                Olen hiljalleen jyväskyläläistynyt pohjalainen. Työskentelen <a href="https://www.jklkl.fi/" target="_blank" title="JKLKL" class="two">Jyväskylän Katulähetyksen</a> 
+                Talentti Harjunportaalla ja opiskelen tällä hetkellä <a href="https://www.jamk.fi" target="_blank" title="JAMK" class="two">JAMKin</a> <span class="italic">valintakoeopintojaksolla.
+                </span> Tavoitteenani on tällä hetkellä päästä opiskelemaan JAMKin tieto- ja viestintätekniikan monimuotototeutukseen. Toiveenani on myös opintojen alettua päästä 
+                mahdollisimman nopeasti tekemään alan töitä. Haluaisin yhdistää töiden tekoa ja opiskelua tähdäten insinöörin tutkintoon.          
+            </div>
+        </section> <!-- tietoja päättyy -->
+
+        <a id="portfolio" class="hyppykohta"></a>
+        <div class="jakaja">Portfolio</div>
+    
+        <section class="portfolio"> <!-- portfolio alkaa -->
+            <div class="card">
+                <div class="top">
+                    <img src="images/pro_lingua.jpg" alt="pro_lingua" title="Pro lingua -mitali" class="cardimg">
+                </div>
+                <div class="bottom">
+                    <h2>Pro lingua -mitali</h2>
+                    <p class="title">Karstulan lukiosta 2013</p>
+                    <p>Pro lingua -mitali annetaan menestymisestä kieliopinnoissa</p>
+                    <div class="dropdown">
+                        <i class="material-symbols-outlined dropbtn">help</i>
+                        <p class="dropdown-content">
+                        Pro lingua -mitali on Suomen kieltenopettajien liiton antama mitali harrastuneisuudesta ja menestyksestä
+                        kieliopinnoissa. Ansaitsin mitalin erinomaisella suoriutumisella lukion kurssiopinnoissa ja ylioppilaskirjoituksissa.
+                        </p>
+                    </div>
+                    <p><button>linkki</button></p> <!-- nappi odottaa linkitettävää sisältöä -->
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="top">
+                    <i class="material-symbols-outlined" style="font-size: 8em;">code</i>   
+                </div>
+                <div class="bottom">
+                    <h2 class="border">Web-portfolio</h2>
+                    <p class="title">JAMK 2022</p>
+                    <p>Tämä web-portfolio on minun harjoitustyöni JAMKin valintakoeopintojaksolta</p>
+                    <div class="dropdown">
+                        <i class="material-symbols-outlined dropbtn">help</i>
+                        <p class="dropdown-content">
+                            Sivusto on rakennettu itse käyttäen HTML:ää ja CSS:ää. Se tehtiin osana JAMKin web-tekniikat opintojaksoa, joka toimi myös valintaopintojaksona.
+                        </p>
+                    </div>
+                    <p><button>linkki</button></p> <!-- nappi odottaa linkitettävää sisältöä -->
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="top">
+                    <img src="images/KAIPR_joukko-osastotunnus.svg" alt="Joukko-osastotunnus KaiPr" title="KaiPr attribution: Puolustusvoimat, Public domain, via Wikimedia Commons" class="cardimg greyscale">
+                </div>
+                <div class="bottom">
+                    <h2>Sotilaskoti- yhdistyksen stipendi</h2>
+                    <p class="title">KaiPr 2014</p>
+                    <p>Stipendi annetaan hyvin palvelleille varusmiehille</p>
+                    <div class="dropdown">
+                        <i class="material-symbols-outlined dropbtn">help</i>
+                        <p class="dropdown-content">
+                        Kajaanin sotilaskotiyhdistys palkitsee ansioituneesti palvelleita varusmiehiä kotoutumisen yhteydessä.
+                        </p>
+                    </div>
+                    <p><button>linkki</button></p> <!-- nappi odottaa linkitettävää sisältöä -->
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="content_right info more">
+                <h3>Lisää minusta:</h3>
+                Olen itsenäinen ja pohdiskeleva persoona. Minua on kuvailtu luotettavaksi, ahkeraksi, huumorintajuiseksi ja lempeäksi. Olen empaattinen ja omaan erinomaiset
+                kommunikaatiotaidot. Juuri siksi tulen toimeen kaikenlaisten ihmisten kanssa. Tämä näkyy esimerkiksi työpaikallani sekä asiakkaiden että työkavereideni parissa. 
+                Kärsivällisyyden ja rauhallisuuden ansiosta suoriudun haastavistakin tilanteista. Haluan kehittää itseäni oppimalla uutta ja siksi tavoittelen opiskelupaikkaa 
+                tieto- ja viestintätekniikan opintoihin. Saatan uppoutua pulmien ratkaisuun pitkiksi ajoiksi, mikä lienee hyve IT-alalla. Opin uusia asioita suhteellisen vaivattomasti. 
+                Erityinen vahvuuteni on kielten oppiminen. Menestymisestä kielten opinnoissa sain luokiossa Suomen kieltenopettajien liiton Pro lingua -mitalin.
+                <br>
+                <br>
+                Harrastuksissani, kuten pelimaailmassa, olen ajautunut yleensä tiiminvetäjän rooliin. Koen kuitenkin kunnianhimoni olevan enemmän asiakeskeinen ja haluan hoitaa 
+                tehtäväni huolella. Ymmärrän toisaalta hyvin erilaisia näkökulmia ja osaan ilmaista itseäni tarvittaessa varsin diplomaattisesti, mistä johtunee, että minulle on
+                usein ehdotettu vetovastuuta.
+            </div>
+        </section> <!-- portfolio päättyy -->
+
+        <a id="historia" class="hyppykohta"></a>
+        <div class="jakaja" style="float:none">Historia</div>
+
+        <section class="aikajana"> <!-- aikajana alkaa -->
+            <div class="timeline">
+                <div class="container left">
+                    <div class="content">
+                        <h2 class="historia">Jyväskylän Katulähetys 2020-</h2>
+                        <p>Talentti Harjunporras on <a href="https://www.jklkl.fi/" target="_blank" title="JKLKL" class="two">Jyväskylän Katulähetyksen</a> kierrätysmyymälä. 
+                            Katulähetys on yhdistys, joka palvelee Jyväskylän lähiyhteisön avuntarpeessa olevia muun muassa tarjoamalla ruoka-apua ja asuntopalveluita asunnottomille. 
+                            Kierrätysmyymälässä minun työkuvaani kuuluvat erilaiset myymälän työtehtävät asiakaspalvelusta lajitteluun.
+                        </p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h2 class="historia">Nuorten taidetyöpaja 2019</h2>
+                        <p>Nuorten taidetyöpajalla pääsin kokeilemaan kaikenlaista bändisoitosta työelämän suunnitteluun.</p>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <h2 class="historia">Varusmiespalvelus Kainuun prikaatissa 2014</h2>
+                        <p> Varusmiespalveluksessa toimin kirjurina. Tein töitä yhdessä yksikön vääpelin kanssa. Arkipäivään kuului taulukkolaskentaa ja tekstinkäsittelyä. 
+                            Koin palveluksessa voimakasta vastuuntuntoa, sillä toimenkuvaani sisältyi esimerkiksi koko yksikön varusmiesten henkilötietojen käsittelyä, jolloin 
+                            täytyi kiinnittää erityistä huomiota tietoturvaan. Sain palveluksesta Kajaanin sotilaskotiyhdistyksen stipendin.
+                        </p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h2 class="historia">Ylioppilastutkinto 2013</h2>
+                        <p>Suoritin ylioppilastutkinnon Karstulan lukiossa vuonna 2013.</p>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- aikajana päättyy -->
+
+        <a id="harrastukset" class="hyppykohta"></a>
+        <div class="jakaja">Harrastukset</div>
+
+        <section class="harrastusbox"> <!-- harrastusosio alkaa -->
+            <div class="content_middle harrastusbox">
+                <h3 class="leftheader">Musiikki</h3>
+                <figure>
+                    <img src="images/musiikki.png" alt="Kitarakuva" title="Kitarakuva" class="kehys">
+                </figure>
+                Olen aina pitänyt musiikista, ja sen kuuntelu voidaan luokitella koko eliniän jatkuneeksi harrastukseksi. Aikuisiän <span class="italic">haastavana</span> 
+                projektina musiikkiharrastukseen on tullut mukaan kitaran soiton harjoittelu. Pidän kitaraharrastuksesta juuri siksi, että se on hyvin vaikeaa ja 
+                edistyminen vaatii paneutumista asialle. Makuuhuonemuusikkona ei toki tarvitse aina treenata hampaat irvessä, vaan voi myös pitää hauskaa. Se on helppoa, 
+                kun laittaa taustabiisin soimaan, kuvittelee olevansa Jimi Hendrix ja rämpyttää menemään.
+            </div>
+            <div class="content_middle harrastusbox">
+                <h3 class="leftheader">Lenkkeily</h3>
+                Lenkkeily lienee minun pitkäaikaisin harrastukseni, jota edelleen teen aktiivisesti. Aloitin juoksuharrastuksen yläkouluikäisenä, kun huomasin viettäväni hyvin 
+                paljon aikaa sisätiloissa ja yleiskunnon rapistuvan lapsuuden fyysisten harrastusten jäätyä vähemmälle. Juoksu tuntui matalan kynnyksen vaihtoehdolta. 
+                Laitoin siis lenkkitossut jalkaan ja samaisella tiellä olen edelleen. Pidän lenkkeilystä, sillä sitä voi harrastaa ympäri vuoden, ja sen tuoma vapauden 
+                tunne on huumaava. Juoksussa pystyy itse määrittelemään kaiken ehkäpä säätä lukuun ottamatta; sääkin on lähinnä asenne- ja varustautumiskysymys.
+            </div>
+            <div class="content_middle harrastusbox">                
+                <h3 class="leftheader">Jooga</h3>
+                <figure>
+                    <img src="images/piqsels.com-sunset.jpg" alt="sunset" title="Sunset from piqsels.com" class="kehys float_left">
+                </figure>
+                <p class="align_left">
+                Pitkään lenkkeily oli satunnaisen voimaharjoittelun lisäksi minun ainoa fyysinen harrastukseni. Koin kuitenkin kaipaavani myös erilaista rasitusta kehon
+                hyvinvoinnin edistämiseksi. Jooga on mainio keino ehkäistä lihasryhmien jumeja. Olen myös havainnut, että kankeakin tyyppi voi harjoittaa notkeutta ja
+                edistyä siinä, kunhan on kärsivällinen. Sanotaan, että lihaksen terveyttä määrittää sen kyky sekä supistua että venyä. Jooga on erinomainen lääke tähän.
+                </p>
+            </div>
+            <div class="content_middle harrastusbox">
+                <h3 class="leftheader">PC-pelit</h3>
+                Innostuin tietokonepeleistä heti ensimmäisen tietokoneen saatuani alakoulussa. Olen kerennyt kokeilla useita eri pelejä, mutta minulle mieluisimmiksi peleiksi
+                nousevat Tibia ja Counter-Strike. Tibia on vuonna 1997 julkaistu ja kunnioitettavaan 25 vuoden ikään päässyt retro-roolipeli. Se oli yksi ensimmäisiä
+                MMORPG-pelejä ja on yksi harvoja edelleen aktiivisessa kehityksessä olevia pelejä tuolta ajalta. Counter-Strike lienee tuttu jokaiselle tietokonepelaajalle.
+                Sekin on jo teini-iän ohittanut FPS-pelien ikoni. Molemmat pelit ovat vetäneet minua puoleensa kilpailullisuuden ja korkean taitokattonsa vuoksi. Viime vuosina
+                pelaamisharrastukseni on kuitenkin muuttunut satunnaisemmaksi. Olen kiitollinen, että voin edelleen rentoutua hyvien pelien parissa, kun sille on aikaa. 
+            </div>
+            <div class="content_middle harrastusbox">
+                <h3 class="leftheader">Elokuvat ja sarjat</h3>
+                Olen elokuvien ja sarjojen ystävä. Hyvä elokuva tai sarja on erinomainen tapa kanavoida ajatukset arkielämästä muualle. Pidän ajatuksia ja tunteita herättävästä 
+                sisällöstä. Sisällöstä, joka saattaa pohdituttaa pitkään katselun jälkeenkin. Lempielokuviani ovat muun muassa Manchester by the Sea ja Whiplash. Sarjoista 
+                suosikkeihini kuuluvat After Life, Breaking Bad ja Cosmos.
+            </div>
+        </section> <!-- harrastusosio päättyy -->
+
+        <footer> <!-- footer alkaa -->
+            <address>
+                <a href="mailto:ac6084@student.jamk.fi" class="two"><i class="material-symbols-outlined nav_icon" style="font-size: 1em;">mail</i> Ota yhteyttä</a>
+                <a href="#start" style="float:right;position:relative;"><i class="material-symbols-outlined nav_icon" style="font-size: 1em;">arrow_circle_up</i>Back to top</a>
+            </address>
+        </footer> <!-- footer päättyy -->
+    </article> <!-- page päättyy --> 
+</body> <!-- body päättyy -->
+</html>
