@@ -565,18 +565,19 @@ h2.historia {
     section.portfolio {
         max-width: 90%;
     }
+	.card {
+        max-width: 230px;
+		min-width: 230px;
+    }
 }
 
-/* tilaa portfoliokorteille
+/* tilaa portfoliokorteille */
 @media only screen and (max-width: 1100px) {
-    section.portfolio {
-        max-width: 90%;
-    }
     .card {
-        max-width: 32%;
+        max-width: 200px;
+		min-width: 200px;
     }
 }
-*/
     
 /* Media queries - Responsive timeline on screens less than 800px wide */
 @media screen and (max-width: 800px) {
