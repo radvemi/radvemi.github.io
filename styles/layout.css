@@ -668,6 +668,13 @@ h2.historia {
         max-width: 60%;
         margin: 1em auto;
     }
+	
+	.top {
+        min-height: 253px;		
+    }
+	
+	.toptext {
+		margin-top: 0.6em;
 }
 
 /* ankkurilinkin säätäminen, kun navi siirtyy kahdelle riville */
