@@ -81,6 +81,7 @@ a:hover {
 header, nav, .jakaja, footer {
     margin-left: calc(50% - 50vw);
     width: 100vw;
+	
 }
 
 header {
@@ -121,6 +122,7 @@ footer {
     padding: 0.225em;
     font-size: 1.1em;
     clear: both;
+	box-shadow: 0 0 1´px black;
 }
 
 /* horizontal navbar keskitettynä */
@@ -135,6 +137,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 2;
+	box-shadow: 0 0 2px black;
 }
 
 ul {
@@ -182,6 +185,7 @@ li a:hover {
     font-size: 150%;
     font-family: 'Changa', sans-serif;
     letter-spacing: 0.0475em;
+	box-shadow: 0 0 1px black;
 }
 
 section {
@@ -205,11 +209,12 @@ section.portfolio {
 
 .content_left, .content_right, .content_middle {
     max-width: 40%;
-    border: 1px solid #AC9675;
+    border: 1px solid white;
     border-radius: 0.5em;
     overflow: hidden;
     font-size: 0.875em;
     padding: 2em 1em;
+	box-shadow: 0 0 10px #445b75;
 }
 
 .content_left {
@@ -255,7 +260,7 @@ section.portfolio {
 
 .kehys {
     padding: 0;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px #445b75;
 }
 
 .float_left {
@@ -411,7 +416,7 @@ button {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-	box-shadow: 0 0 20px red;
+	box-shadow: 0 0 15px #445b75;
 }
 
 a.kortti {
