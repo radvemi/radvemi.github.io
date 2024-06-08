@@ -122,7 +122,7 @@ footer {
     padding: 0.225em;
     font-size: 1.1em;
     clear: both;
-	box-shadow: 0 0 1´px black;
+	box-shadow: 0 0 1px black;
 }
 
 /* horizontal navbar keskitettynä */
@@ -209,8 +209,6 @@ section.portfolio {
 
 .content_left, .content_right, .content_middle {
     max-width: 40%;
-    border: 1px solid white;
-    border-radius: 0.5em;
     overflow: hidden;
     font-size: 0.875em;
     padding: 2em 1em;
@@ -263,14 +261,12 @@ section.portfolio {
     box-shadow: 0 0 10px #445b75;
 }
 
-.float_left {
-    float: left;
-    margin-right: 1.5em;
+.float_right {
+    float: right;
+    margin-left: 1.5em;
+	margin-bottom: -2em;
 }
 
-.align_left {
-    text-align: left;
-}
 
 .info {
     background: linear-gradient(to bottom right, rgba(3, 15, 19, 0.1), rgba(12, 58, 110, 0.4) ),
@@ -331,8 +327,8 @@ section.portfolio {
 
 .harrastusbox img {
     max-width: 25%;
-    margin-bottom: 2em;
-    border-radius: 2px;
+    margin-bottom: 1em;
+    border-top-left-radius: 2em;
 }
 
 h2, h3 {
