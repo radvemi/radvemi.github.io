@@ -411,7 +411,7 @@ button {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-	box-shadow: 0 0 2px #445b75;
+	box-shadow: 0 0 2px;
 }
 
 a.kortti {
