@@ -25,7 +25,7 @@ body {
     overflow-x: hidden;
     font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 100%;
-    background: linear-gradient(to bottom right, rgba(3, 15, 19, 0.2), rgba(12, 58, 110, 0.7) ),
+    background: linear-gradient(to bottom right, rgba(3, 15, 19, 0.2), rgba(12, 58, 110, 0.3) ),
                 radial-gradient(closest-side at 30% 65%,#e5e5e5, #ffffff);             
 }
 
@@ -212,7 +212,7 @@ section.portfolio {
     overflow: hidden;
     font-size: 0.875em;
     padding: 2em 1em;
-	box-shadow: 0 0 10px #445b75;
+	box-shadow: 0 0 10px rgb(119, 131, 133, 0.8);
 }
 
 .content_left {
@@ -233,10 +233,7 @@ section.portfolio {
     max-width: 85%;
     text-align: center;
     border: none;
-    border-radius: 0;
-    background: linear-gradient(to top left, rgba(3, 15, 19, 0.1), rgba(12, 58, 110, 0.5) ),
-                radial-gradient(closest-side at 30% 65%,#e5e5e5, #ffffff);
-    box-shadow: 0 0 10px rgb(119, 131, 133);   
+    border-radius: 0; 
 }
 
 /* contentin ikonien säätöä */
@@ -270,8 +267,6 @@ section.portfolio {
 
 
 .info {
-    background: linear-gradient(to bottom right, rgba(3, 15, 19, 0.1), rgba(12, 58, 110, 0.4) ),
-                radial-gradient(closest-side at 30% 65%,#e5e5e5, #ffffff);
     max-width: 45%;
     border: none;
     border-radius: 0;
@@ -287,7 +282,7 @@ section.portfolio {
     text-align: left;
     padding: 0 1em 1em 1em;
     margin-top: 15em;
-	box-shadow: 0 0 10px black;
+	box-shadow: 0 0 10px rgb(119, 131, 133, 0.4);
 }
 
 .more h3, .leftheader, .rightheader {
