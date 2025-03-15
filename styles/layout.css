@@ -71,6 +71,7 @@ article.page {
 
 a {
     color: black;
+    
 }
 
 a:hover {
@@ -373,10 +374,12 @@ h3 {
     align-self: flex-start;
     margin: auto;
     width: 90%;
+    min-height: 200px;
 }
 
 .bottom {
     justify-content: flex-end;
+    min-height: 250px;
 }
 
 .border {
@@ -406,10 +409,18 @@ button {
     color: black; /* teksti piiloon */
     background-color: #000;
     text-align: center;
-    cursor: pointer;
     width: 100%;
     font-size: 18px;
 	box-shadow: 0 0 15px #445b75;
+}
+
+.buttonlink {
+    color: white;
+}
+
+.buttonlink:hover {
+    cursor: pointer;
+
 }
 
 a.kortti {
@@ -691,4 +702,5 @@ h2.historia {
         word-wrap: break-word;
     }
     
+}
 }
