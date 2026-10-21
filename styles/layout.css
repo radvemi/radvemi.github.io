@@ -25,8 +25,8 @@ body {
     overflow-x: hidden;
     font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 100%;
-    background: linear-gradient(to bottom right, rgba(3, 15, 19, 0.2), rgba(12, 58, 110, 0.3) ),
-                radial-gradient(closest-side at 30% 65%,#e5e5e5, #ffffff);             
+    background: #f8fafc;
+    color: #334155;           
 }
 
 .taustakuva {
@@ -87,7 +87,7 @@ header, nav, .jakaja, footer {
 
 header {
     height: 10%;
-    color: #F0EBEB;
+    color: white;
     text-align: center;
     padding: 1em;
     font-size: 200%;
@@ -107,7 +107,7 @@ header {
 }
 
 h2.headeri, h3.headeri {
-    color: #F0EBEB;
+    color: white;
     font-size: 1em;
     text-shadow: none;
 }
@@ -129,7 +129,7 @@ footer {
 /* horizontal navbar keskitettynä */
 nav {
     background-color: #364549;
-    color: #F7F5EE;               
+    color: white;               
     text-align: center;
     padding-top: 0.4em;
     font-size: 1.1em;
@@ -138,7 +138,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 2;
-	box-shadow: 0 0 2px black;
+	box-shadow: 0 4px 20px rgba(0,0,0,.15);
 }
 
 ul {
@@ -357,12 +357,18 @@ h3 {
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
     max-width: 250px;
     text-align: center;
-    background: linear-gradient(to bottom right, rgba(3, 15, 19, 0.05), rgba(12, 58, 110, 0.4) ),
-                radial-gradient(closest-side at 30% 65%,#e5e5e5, #ffffff);
+    background: white;
     word-wrap: break-word;    
+	transition: all .3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,.12);
 }
 
 .top .bottom {
@@ -411,7 +417,7 @@ h3 {
     text-align: center;
     width: 100%;
     font-size: 18px;
-	box-shadow: 0 0 15px #445b75;
+	box-shadow: 0 10px 30px rgba(0,0,0,.08);
 }
 
 a.kortti {
@@ -560,8 +566,7 @@ h2.historia {
     padding: 0.8em 0.65em 1.2em 0.65em;
     background-color: white;
     position: relative;
-    border-radius: 6px;
-    box-shadow: 0 0 10px grey;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
     font-size: 92%;
     letter-spacing: 0;
 }
