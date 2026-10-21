@@ -25,8 +25,8 @@ body {
     overflow-x: hidden;
     font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 100%;
-    background: #f8fafc;
-    color: #334155;           
+    background: linear-gradient(to bottom right, rgba(3, 15, 19, 0.01), rgba(12, 58, 110, 0.05) ),
+                radial-gradient(closest-side at 30% 65%,#e5e5e5, #ffffff);           
 }
 
 .taustakuva {
@@ -34,7 +34,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom right, rgba(3, 15, 19, 0.451), rgba(10, 110, 143, 0.4) ),
+    background-image: linear-gradient(to bottom right, rgba(3, 15, 19, 0.251), rgba(10, 110, 143, 0.3) ),
                       url("../images/piqsels.com-forest.jpg");
 }
 
