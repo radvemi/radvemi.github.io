@@ -165,7 +165,8 @@ li a, footer a {
 }
 
 li a:hover {
-    background-color: black;
+    background: rgba(255,255,255,.15);
+    border-radius: 8px;
     padding-top: 0.05em;
     padding-bottom: 0.33em;
     padding-left: 0.5em;
@@ -181,7 +182,7 @@ li a:hover {
 /* navin määrittely päättyy */
 
 .jakaja {
-    color: #F0EBEB;
+    color: white;
     font-size: 150%;
     font-family: 'Changa', sans-serif;
     letter-spacing: 0.0475em;
@@ -212,7 +213,7 @@ section.portfolio {
     overflow: hidden;
     font-size: 0.875em;
     padding: 2em 1em;
-	box-shadow: 0 0 10px rgb(119, 131, 133, 0.8);
+	box-shadow: 0 0 4px rgb(119, 131, 133, 0.4);
 }
 
 .content_left {
